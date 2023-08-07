@@ -1,0 +1,38 @@
+.booking-page {
+    margin: auto;
+
+}
+.booking-page>.booking-data >h1{
+    text-align: center;
+    margin:2rem 0px  2rem 0px ;
+}
+.booking-page>.booking-data >h1{
+    color: gray;
+    font-weight: 300;
+    font-size: 250%;
+    text-shadow: 1px 1px 2px  lightblue;
+}
+.booking-page>.booking-data >form{
+    margin: auto;
+    font-size: 1.2rem;
+    width: 60%;
+    padding: 2rem;
+}
+.booking-page>.booking-data>form >input{
+    width: 80%;
+    height: 45px;
+    margin: 1rem 0 1rem 0;
+    text-indent: 15px;
+    outline: none;
+}
+.booking-page>.booking-data>form>button{
+    width: 80%;
+    height: 45px;
+    color: white;
+    background-color: darkcyan;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.booking-page>.booking-data>form>button:hover{
+    background-color: rgb(12, 84, 84);
+}

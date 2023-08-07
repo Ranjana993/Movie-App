@@ -1,0 +1,11 @@
+.header{
+    background: linear-gradient(rgb(32, 31, 31) , rgb(21, 21, 21) );
+    padding: 9px;
+
+}
+.header > a > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+}
