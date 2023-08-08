@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
     margin-top: 2rem;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -30,14 +31,13 @@
 .wrapper>.info_container {
     margin-left: 8rem;
     width: 70%;
-    /* background: rgb(241, 227, 227); */
-    /* color: white; */
     padding: 1rem;
     line-height: 1.7;
 }
-
+.wrapper>.image_container>img {
+    width: 100%;
+}
 .wrapper>.info_container>h1 {
-    /* color: red; */
     font-weight: 300;
     font-size: 250%;
     margin-bottom: 1rem;
@@ -80,4 +80,20 @@ h3 {
     height: 45px;
     width: 100%;
     border: 1px solid gray;
+}
+
+@media only screen and (max-width: 800px) {
+    .wrapper {
+        padding: 2rem;
+        flex-direction:column;
+    }
+    .wrapper>.image_container>.btn {
+        width: 100%;
+
+    }
+
+    .wrapper>.info_container {
+        margin-left: 1rem;
+        width: 100%;
+    }
 }

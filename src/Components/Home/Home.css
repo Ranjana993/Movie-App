@@ -4,6 +4,7 @@
         margin-top: 2rem;
         align-items: center;
         justify-content: center;
+        flex-direction: row;
         flex-wrap: wrap;
         align-self: stretch;
 }
@@ -25,4 +26,15 @@ a {
         color: rgb(3, 98, 98);
         padding: 2px;
         border-bottom: 1px solid lightgray;
+}
+
+@media only screen and (max-width: 800px) {
+        .cards {
+                flex-direction: column;
+                margin: auto;
+        }
+        a {
+                margin: 1rem;
+                width: 50%;
+        }
 }
