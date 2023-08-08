@@ -7,6 +7,21 @@
         flex-wrap: wrap;
         align-self: stretch;
 }
-a{
+
+a {
         text-decoration: none;
+        margin: 1rem;
+        width: 20%;
+        color: inherit;
+}
+
+
+.container>h1 {
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+        font-size: 250%;
+        text-transform: capitalize;
+        color: rgb(3, 98, 98);
+        padding: 2px;
+        border-bottom: 1px solid lightgray;
 }

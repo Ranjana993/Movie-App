@@ -1,10 +1,15 @@
 .card{
-    margin: 1rem;
     background-color: #ffff;
     box-shadow: 2px -4px 12px -2px #000;
     padding: 1rem;
-    /* width: 15%; */
+    width: 100%;
+    border: 1px solid lightblue;
+}
+.card:hover{
+    box-shadow: 2px -4px 12px -2px #525151;
+    transition: 0.5 ease-in-out;
+    padding: 1.2rem;
 }
 .card >.info >img{
-width: 100%;
+    width: 100%;
 }
