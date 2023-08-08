@@ -13,6 +13,7 @@ const SingleMovie = ({ name, image, rating, genres, language }) => {
                 <h3> Rating : {(rating?.average) ? (rating?.average) : 0 }</h3>
                 <h3> {genres.join(", ")}</h3>
                 <h3>Language : {language} </h3>
+                <button>show detail</button>
             </div>
 
         </div>
